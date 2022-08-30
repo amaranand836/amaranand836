@@ -1,0 +1,28 @@
+String Concatention Examples:-
+
+Input:
+first_name = "Amar"
+last_name = "Anand"
+age = 23
+date_of_birth = "11/07/1999"
+print(first_name + " " + last_name)
+print(str(age))
+print(date_of_birth)
+
+Output:
+Amar Anand
+23
+11/07/1999
+
+Input Function Example:-
+
+name = input("What is your name? ")
+dob = input("What is your date of birth? ")
+age = input("What is your age? ")
+print("Hi " + name + "! Your date of birth is " + dob + ". So you are " + age + " years old. ")
+
+Output:
+What is your name? Amar Anand
+What is your date of birth? 11/07/1999
+What is your age? 23
+Hi Amar Anand! Your date of birth is 11/07/1999. So you are 23 years old. 
