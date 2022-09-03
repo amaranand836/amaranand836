@@ -1,0 +1,35 @@
+My Python problems:-
+
+#Write a Python program that inputs a user's first and last name and prints them in reverse order with a space in between.
+
+Program Code:
+
+first_name = input("Input your First Name: ")
+last_name = input("Input your Last Name: ")
+
+print (last_name + " " + first_name)
+
+
+#Write a Python program that inputs two integers and prints out the sum of the integers.
+
+Program Code:
+
+num1 = int(input("First number: "))
+num2 = int(input("Second number: "))
+
+print(num1 + num2)
+
+#Write a Python program that takes in the number of chickens, cows, and pigs (respectively) a farmer has. Print out the sum of the legs across all animals.
+
+Chickens = 2 legs
+Cows = 4 legs
+Pigs = 4 legs
+
+Program Code:
+
+chickens = int(input("Number of chickens: "))
+cows = int(input("Number of cows: "))
+pigs = int(input("Number of pigs: "))
+
+print(chickens*2 + cows*4 + pigs*4)
+
