@@ -1,0 +1,55 @@
+#1. Write a Python program to print the following string in a specific format.
+
+Sample String : "Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky. Twinkle, twinkle, little star, How I wonder what you are"
+
+Code:
+print("Twinkle, twinkle, little star,\n \t\tHow I wonder what you are!\n \t\t\tUp above the world so high,\n \t\t\tLike a diamond in the sky.\n Twinkle, twinkle, little star,\n \t\tHow I wonder what you are")
+
+#2. Write a Python program which accepts the radius of a circle from the user and compute the area.
+
+Code:
+r = int(input("Enter the Radius : "))
+area = 3.14*r**2
+print(area)
+
+#4. Write a Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers.
+
+Code:
+values = input("Input some comma seprated numbers : ")
+list = values.split(",")
+tuple = tuple(list)
+print('List : ',list)
+print('Tuple : ',tuple)
+
+#5. Write a Python program to accept a filename from the user and print the extension of that.
+
+Code:
+filename = input("Enter the file name : ")
+file_ext = filename.split(".")
+print(file_ext[-1])
+
+#6. Write a Python program to display the first and last colors from the following list.
+
+Code:
+color_list = ["Red","Green","White" ,"Black"]
+print(color_list[0], color_list[-1])
+
+#7. Write a Python program to display the examination schedule.
+
+Code:
+exam_st_date = (11,12,2014)
+print( "The examination will start from : %i / %i / %i"%exam_st_date)
+
+#8. Calculate the multiplication and sum of two numbers.
+Given two integer numbers return their product only if the product is equal to or lower than 1000, else return their sum.
+
+Code:
+
+num1 = int(input("Enter the first number : "))
+num2 = int(input("Enter the second number : "))
+sum = num1 + num2
+muliply = num1 * num2
+if muliply <= 1000:
+    print(muliply)
+else:
+    print(sum)
