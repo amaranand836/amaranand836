@@ -1,5 +1,7 @@
+My Python Problems:-
+
 #Find average Marks
-"""
+
 Write a program to input marks of three tests of a student (all integers).
 Then calculate and print the average of all test marks.
 
@@ -13,7 +15,7 @@ avg = (a + b + c) / 3
 print(avg)
 
 #Find X raised to power N
-"""
+
 You are given two integers: X and N. 
 You have to calculate X raised to power N and print it.
 
@@ -26,7 +28,7 @@ power = x**n
 print(power)
 
 #Arithmetic Progression
-"""
+
 You are given first three entries of an arithmetic progression.
 You have to calculate the common difference and print it.
 
@@ -41,7 +43,7 @@ print(a_p)
 
 
  #Rectangular Area
-"""
+ 
 You are given a rectangle in a plane. The corner coordinates of this rectangle is provided to you.
 You have to print the amount of area of the plane covered by this rectangles.
 The end coordinates are provided as four integral values: x1, y1, x2, y2.
