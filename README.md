@@ -1,1 +1,1 @@
-print (" Hello World time to start Hustling")
+print (" Hello World time for start Hustling")
