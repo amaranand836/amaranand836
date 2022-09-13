@@ -1,6 +1,6 @@
 My Python problems:-
 
-#Write a Python program that inputs a user's first and last name and prints them in reverse order with a space in between.
+#1. Write a Python program that inputs a user's first and last name and prints them in reverse order with a space in between.
 
 Program Code:
 
@@ -10,7 +10,7 @@ last_name = input("Input your Last Name: ")
 print (last_name + " " + first_name)
 
 
-#Write a Python program that inputs two integers and prints out the sum of the integers.
+#2. Write a Python program that inputs two integers and prints out the sum of the integers.
 
 Program Code:
 
@@ -19,7 +19,7 @@ num2 = int(input("Second number: "))
 
 print(num1 + num2)
 
-#Write a Python program that takes in the number of chickens, cows, and pigs (respectively) a farmer has. Print out the sum of the legs across all animals.
+#3. Write a Python program that takes in the number of chickens, cows, and pigs (respectively) a farmer has. Print out the sum of the legs across all animals.
 
 Chickens = 2 legs
 Cows = 4 legs
