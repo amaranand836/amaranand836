@@ -2,19 +2,29 @@
 
 import random
 
+#Rock paper or scissor game
+
 def Mygame(comp, you):
+
+    #If two values are equal, declare tie!
     if comp == you:
         return None
+
+    #Check all posibillites if Computer Choose "r"
     elif comp == "r":
         if you == "s":
             return False
         elif you == "p":
             return True
+
+    #Check all posibillites if Computer Choose "p"
     elif comp == "p":
         if you == "s":
             return True
         elif you == "r":
             return False
+
+    #Check all posibillites if Computer Choose "s"
     elif comp == "s":
         if you == "r":
             return True
