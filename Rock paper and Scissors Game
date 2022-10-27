@@ -2,7 +2,7 @@
 
 import random
 
-def game(comp, you):
+def Mygame(comp, you):
     if comp == you:
         return None
     elif comp == "r":
@@ -32,7 +32,7 @@ elif randomNo == 3:
 
 
 you = input("Your Turn: Choose Rock(r) Paper(p) or Scissors(s)? ")
-a = game(comp, you)
+a = Mygame(comp, you)
 
 print(f"Computer Choose {comp}")
 print(f"You Choose {you}")
